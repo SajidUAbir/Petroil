@@ -1,6 +1,9 @@
 tailwind.config = {
       theme: {
         extend: {
+          maxWidth: {
+            container: '1140px',
+          },
           colors: {
             clifford: '#da373d',
             'black': '#1F1F1F',
