@@ -1,34 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Petroil</title>
-    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon" />
-    <!-- TailwindCSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="js/tailwind.config.js"></script>
 
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <!-- link -->
-    <link rel="stylesheet" href="css/all.min.css" />
-  </head>
-  <body>
-    <!-- ################################################### -->
-    <!--                    banner part start                -->
-    <!-- ################################################### -->
-    <section class="bg-banner bg-no-repeat bg-cover py-64">
-      <div class="max-w-container mx-auto">
-        <h1 class="font-Poppins font-bold text-white text-6xl w-[842px]">We exist since 1975 on the oil and gas industry.</h1>
-        <button class="bg-red font-Poppins text-white font-semibold text-base border-2 border-solid border-red py-3.5 px-8 mt-8">LEARN MORE</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Petroil</title>
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/tailwind.config.js"></script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- link -->
+  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- ========================================
+	brand section start
+	======================================== -->
+  <section class="brands py-28">
+    <div class="max-w-container mx-auto">
+      <div class="flex gap-7">
+        <div class="logo w-1/4 text-center">
+          <picture>
+            <img src="./images/brands/logo1.png" alt="brand logo-1" />
+          </picture>
+        </div>
+        <div class="logo w-1/4 text-center">
+          <picture>
+            <img src="./images/brands/logo2.png" alt="brand logo-1" />
+          </picture>
+        </div>
+        <div class="logo w-1/4 text-center">
+          <picture>
+            <img src="./images/brands/logo3.png" alt="brand logo-1" />
+          </picture>
+        </div>
+        <div class="logo w-1/4 text-center">
+          <picture>
+            <img src="./images/brands/logo4.png" alt="brand logo-1" />
+          </picture>
+        </div>
       </div>
-    </section>
-    <!-- ################################################### -->
-    <!--                    banner part end                  -->
-    <!-- ################################################### -->
-  </body>
+    </div>
+  </section>
+  <!-- ========================================
+	brand section end
+	======================================== -->
+
+  <!-- ========================================
+	blog section start
+	======================================== -->
+  <section class="blog bg-[#F0F0F0] py-28">
+    <div class="max-w-container mx-auto">
+      <div class="flex gap-8">
+        <div class="w-1/3 relative">
+          <picture>
+            <img class="w-full" src="./images/blog/blog1.jpg" alt="blog-1">
+          </picture>
+          <div
+            class="absolute h-full w-full top-0 right-0 bg-[#2229] flex items-center justify-center flex-col p-11 text-left">
+            <div class="w-[249px]">
+              <h5 class="text-white font-poppins text-2xl font-bold leading-relaxed mb-14">lorem ipsum
+                dolor sit amet consectetur adipiscing elit sed do eiusmod.</h5>
+              <button
+                class="bg-[#ffffff80] font-poppins px-7 py-2.5 text-white font-semibold hover:bg-red ease-in-out ease-in duration-300">Read
+                more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-1/3 relative">
+          <picture>
+            <img class="w-full" src="./images/blog/blog2.jpg" alt="blog-1">
+          </picture>
+          <div
+            class="absolute h-full w-full top-0 right-0 bg-[#2229] flex items-center justify-center flex-col p-11 text-left">
+            <div class="w-[249px]">
+              <h5 class="text-white font-poppins text-2xl font-bold leading-relaxed mb-14">lorem ipsum
+                dolor sit amet consectetur adipiscing elit sed do eiusmod.</h5>
+              <button
+                class="bg-[#ffffff80] font-poppins px-7 py-2.5 text-white font-semibold hover:bg-red ease-in-out ease-in duration-300">Read
+                more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-1/3 relative">
+          <picture>
+            <img class="w-full" src="./images/blog/blog3.jpg" alt="blog-1">
+          </picture>
+          <div
+            class="absolute h-full w-full top-0 right-0 bg-[#2229] flex items-center justify-center flex-col p-11 text-left">
+            <div class="w-[249px]">
+              <h5 class="text-white font-poppins text-2xl font-bold leading-relaxed mb-14">lorem ipsum
+                dolor sit amet consectetur adipiscing elit sed do eiusmod.</h5>
+              <button
+                class="bg-[#ffffff80] font-poppins px-7 py-2.5 text-white font-semibold hover:bg-red ease-in-out ease-in duration-300">Read
+                more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========================================
+	blog section end
+	======================================== -->
+</body>
+
 </html>
