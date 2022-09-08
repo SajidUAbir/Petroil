@@ -8,8 +8,12 @@ tailwind.config = {
         'yellow': '#FFB800',
         'red': '#F40404',
         'alphaOfBlack': '#0009',
+
         'black-light': 'rgb(0 0 0 / 50%)',
         gray: '#6C6C6C'
+      },
+      maxWidth:{
+        container: '1140px',
       },
       spacing: {
         large: '1920px',
@@ -18,6 +22,7 @@ tailwind.config = {
         poppins: ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
+        banner: "url('images/banner.webp')",
         'service': "url('./images/service.webp')",
         'service-1': "url('./images/service_1.webp')",
         'service-2': "url('./images/service_2.webp')",
@@ -25,4 +30,8 @@ tailwind.config = {
       }
     }
   }
+   }
+    }
+  }
 }
+
