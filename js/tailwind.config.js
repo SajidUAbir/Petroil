@@ -8,7 +8,6 @@ tailwind.config = {
         'yellow': '#FFB800',
         'red': '#F40404',
         'alphaOfBlack': '#0009',
-
         'black-light': 'rgb(0 0 0 / 50%)',
         gray: '#6C6C6C'
       },
@@ -30,8 +29,7 @@ tailwind.config = {
       }
     }
   }
-   }
-    }
-  }
 }
+
+
 
