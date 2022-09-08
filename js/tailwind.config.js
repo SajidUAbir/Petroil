@@ -1,9 +1,6 @@
 tailwind.config = {
   theme: {
     extend: {
-      maxWidth: {
-        container: "1140px",
-      },
       colors: {
         clifford: '#da373d',
         'black': '#1F1F1F',
@@ -11,7 +8,16 @@ tailwind.config = {
         'yellow': '#FFB800',
         'red': '#F40404',
         'alphaOfBlack': '#0009',
-      }
+      },
+      fontFamily: {
+        'Poppins': 'Poppins',
+      },
+      backgroundImage: {
+        banner: "url('images/banner.webp')",
+      },
+      maxWidth:{
+        container: '1140px',
+      },
     }
   }
 }
