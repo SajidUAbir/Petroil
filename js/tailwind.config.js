@@ -11,13 +11,7 @@ tailwind.config = {
           },
           fontFamily: {
             'Poppins': 'Poppins',
-          },
-          backgroundImage: {
-            banner: "url('images/banner.webp')",
-          },
-          maxWidth:{
-            container: '1140px',
-          },
+          }
         }
       }
     }
