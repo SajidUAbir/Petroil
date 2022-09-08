@@ -1,22 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petroil</title>
-    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
-    <!-- TailwindCSS -->
-    <script src="js/tailwind.config.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/tailwind.config.js"></script>
+  <link rel="stylesheet" href="css/all.min.css">
 </head>
 <body>
-<!-- ==============================
+   <!-- =====================================
+              header part start
+    ========================================== -->
+    <header class="bg-black py-4 border-b-2 border-yellow border-solid">
+      <div class="max-w-container mx-auto">
+        <div class="flex justify-between">
+          <div class="w-3/6">
+            <a class="text-white mr-[50px]" href="mailto:mail@yourcompany.com"
+              ><i class="fa-regular fa-envelope-open mr-[5px]"></i>
+              mail@yourcompany.com</a
+            >
+
+            <a
+              class="text-white relative after:absolute after:top-0 after:left-[-25px] after:h-full after:w-0.5 after:content[''] after:bg-yellow"
+              href="tel:+896 120 5889"
+              ><i class="fa-solid fa-phone mr-[5px]"></i> +896 120 5889 (Toll
+              free)</a
+            >
+          </div>
+          <div class="w-3/6 text-right">
+            <i class="fa-brands fa-facebook text-white w-5"></i>
+            <i class="fa-brands fa-twitter text-white w-5"></i>
+            <i class="fa-brands fa-linkedin text-white w-5"></i>
+            <i class="fa-brands fa-instagram text-white w-5"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- =====================================
+                header part end
+      ========================================== -->
+
+       <!-- =====================================
+                navbar part start
+      ========================================== -->
+    <nav class="bg-red py-7">
+      <div class="max-w-container mx-auto">
+        <div class="flex">
+          <div class="w-1/4">
+            <picture> <img src="images/Logo.png" alt=""></picture>
+          </div>
+          <div class="w-3/4 flex items-center justify-end">
+            <ul
+              class="flex gap-x-12 font-Poppins text-white font-semibold text-base"
+            >
+              <li>Home</li>
+              <li>About</li>
+              <li>Service</li>
+              <li>Gallery</li>
+              <li>Blog</li>
+            </ul>
+            <button
+              class="font-Poppins font-semibold text-white text-base border-2 border-solid border-white py-3.5 px-8 ml-16"
+            >
+              CONTACT
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- =====================================
+                navbar part end
+      ========================================== -->
+
+  <!-- ################################################### 
+                   banner part start                
+    ################################################### -->
+    <section class="bg-banner bg-no-repeat bg-cover py-64">
+      <div class="max-w-container mx-auto">
+        <h1 class="font-Poppins font-bold text-white text-6xl w-[842px]">We exist since 1975 on the oil and gas industry.</h1>
+        <button class="bg-red font-Poppins text-white font-semibold text-base border-2 border-solid border-red py-3.5 px-8 mt-8">LEARN MORE</button>
+      </div>
+    </section>
+    <!-- ###################################################
+                    banner part end                 
+    ################################################### -->
+    
+    <!-- ==============================
          Supplier-part start
 =============================== -->
 <section class="py-16">
